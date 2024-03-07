@@ -1,0 +1,247 @@
+.mb-gallery{
+  display: flex;
+  gap:4em;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+  font-size: 16px;
+}
+.mb-gallery-img-one{
+    width: 20.75em;
+    height: 23.88em;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    margin: 0rem;
+    object-fit: cover;
+}
+.mb-gallery-img-two{
+    width: 14.213em;
+    height: 16.43em;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    object-fit: cover;
+}
+.mb-gallery-img-three{
+    width: 12.9em;
+    height: 14.8em;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    object-fit: cover;
+}
+.mb-gallery-img-four{
+    width: 20.3em;
+    height: 23.43em;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    object-fit: cover;
+}
+.img-wrp{
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-color:#4b5fab ;
+}
+.img-wrp a{
+    width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mb-img-wrp{
+  display: flex;
+  gap: 1em;
+  position: relative;
+}
+.mb-img-one{
+    width:21.375em;
+    height:24.688em;
+}
+.mb-img-two{
+  width: 14.813em;
+  height: 17.063em;
+}
+.mb-img-three{
+  width: 13.313em;
+  height: 15.375em;
+}
+.mb-img-four{
+    width: 20.813em;
+    height: 24.063em;
+}
+.mb-gallery-wrp-two .mb-img-wrp{
+  align-items: end;
+}
+.mb-gallery-btn button{
+  background-color:#4b5fab ;
+  padding: 5px;
+  font-size: clamp(1em, 0.4136em + 3.1273vw, 2em);
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+}
+.mb-color-bg{
+  background-color:#4b5fab;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  width: 3rem;
+  height: 4rem;
+}
+.mb-transprent-bg{
+  background-color:#DEDEDE ;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  width: 3em;
+  height: 4em;
+}
+.mb-bg-hex{
+  position: relative;
+}
+.mb-bg-hex span{
+  display: inline-block;
+  position: absolute;
+}
+.mb-bg-hex span,
+.mb-bg-hex img{
+    position: absolute;
+}
+.hex-one{
+  top: -1.187em;
+  left: 1.875em;
+  width: 5.125em;
+  height: 5.938em;
+  z-index: 1;
+}
+.hex-two{
+  top: -1.187em;
+  left: 12.2em;
+  width: 10.188em;
+  height: 11.813em;
+  z-index: 0;
+  position: absolute;
+}
+.hex-three{
+  bottom: -19.5em;
+  left: 18em;
+  width: 6.75em;
+  height: 7.813em;
+  z-index: 0;
+}
+.hex-four{
+  bottom: -25.5em;
+  left: 16.6em;
+  width: 7.875em;
+  height: 9.063em;
+  z-index: 1;
+}
+.hex-five{
+  bottom: -25.2em;
+  left: 21.2em;
+  width: 6.75em;
+  height: 7.813em;
+  z-index: 0;
+}
+.hex-six{
+  bottom: -17.5em;
+  right: 1em;
+  width: 3.875em;
+  height: 4.438em;
+  z-index: 0;
+}
+.hex-seven{
+  bottom: -20.5em;
+  right: 1em;
+  width: 4em;
+  height: 4.625em;
+  z-index: 0;
+}
+.hex-eight{
+  bottom: -19.5em;
+  right: -3em;
+  width: 3em;
+  height: 3.438em;
+  z-index: 0;
+}
+.hex-nine{
+  bottom: -6em;
+  right: -1.3em;
+  width: 2.875em;
+  height: 3.313em;
+  z-index: 1;
+}
+.hex-Tone{
+  bottom: -23.5em;
+  left: -5.5em;
+  width: 6.438em;
+  height: 7.438em;
+  z-index: 0;
+}
+.hex-Ttwo{
+    bottom: -21.25em;
+    right: 15em;
+    width: 8.813em;
+    height: 10.5em;
+    z-index: 0;
+}
+.hex-Tthree{
+  bottom: -10.25em;
+  left: 0em;
+  width: 4.25em;
+  height: 4.875em;
+  z-index: 0;
+}
+.hex-Tfour{
+    bottom: -27.5em;
+    right: 1.5em;
+    width: 12.375em;
+    height: 14.25em;
+    z-index: 0;
+}
+.hex-Tfive{
+    bottom: -28.5em;
+    right: -3.9em;
+    width: 7.875em;
+    height: 9.063em;
+    z-index: 0;
+}
+.hex-Tsix{
+    bottom: -11.3em;
+    left: 12.5em;
+    width: 4.75em;
+    height: 5.813em;
+    z-index: 0;
+}
+.hex-Tseven{
+    bottom: -7.3em;
+    left: 10.1em;
+    width: 4.75em;
+    height: 5.813em;
+    z-index: 0;
+}
+.hex-Teight{
+    bottom: -8.5em;
+    left: 8.5em;
+    width: 3.313em;
+    height: 4em;
+    z-index: 0;
+}
+.hex-Tnine{
+    bottom: -10.5em;
+    right: -1.7em;
+    width: 2.875em;
+    height: 3.3em;
+    z-index: 1;
+}
+@media (max-width:1440px){
+  .mb-gallery{
+    font-size: 13px;
+  }
+}
+@media (max-width:1300px){
+    .mb-gallery{
+      font-size: 12px;
+    }
+  }
+@media (max-width:991px){
+  .mb-gallery{
+    font-size: 12px;
+    flex-direction: column;
+  }
+}
+@media (max-width:575px){
+  .mb-gallery{
+    font-size: 8px;
+  }
+}
